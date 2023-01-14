@@ -2,6 +2,7 @@ package com.example.MoneyTracker.entities;
 
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 
 
@@ -9,12 +10,12 @@ import jakarta.persistence.Id;
 public class Friend {
 
     @Id
+    @GeneratedValue
     private int id;
     private String name;
     private long phnNo ;
 
-    public Friend( int id,String name, long phnNo) {
-        this.id = id;
+    public Friend( String name, long phnNo) {
         this.name = name;
         this.phnNo = phnNo;
     }
@@ -34,9 +35,6 @@ public class Friend {
         return phnNo;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public void setName(String name) {
         this.name = name;
