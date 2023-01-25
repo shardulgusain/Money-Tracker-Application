@@ -18,3 +18,13 @@ Though I am learning django nowadays for a project requirement maybe I could try
 
 till then....
 
+
+## Screenshots
+
+![App Screenshot](https://github.com/shardulgusain/Money-Tracker-Application/blob/main/MoneyTracker.PNG)
+
+
+## Authors
+
+- [@Shardul Gusain](https://github.com/shardulgusain)
+
