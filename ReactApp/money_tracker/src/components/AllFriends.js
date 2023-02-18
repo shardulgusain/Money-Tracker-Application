@@ -3,7 +3,6 @@ import {useState,useEffect  } from "react";
 import { Alert, Button, Card, CardBody, CardSubtitle, CardText, Container } from 'reactstrap';
 import base_url from '../api/SpringApi';
 import axios from 'axios'; 
-import Friend from './Friend';
 function AllFriends() {
   useEffect(() => {
     document.title = "All friends";

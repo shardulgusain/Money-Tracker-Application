@@ -38,12 +38,12 @@ public class MyController {
     @PostMapping("/friends")
     public Friend addFriend(@RequestBody Friend friend)
     {
-
         return this.friendService.addFriend(friend);
     }
     @PutMapping("/friends")
     public Friend updateFriend(@RequestBody Friend friend)
     {
+
         return this.friendService.updateFriend(friend);
     }
 

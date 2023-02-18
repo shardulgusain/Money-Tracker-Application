@@ -11,7 +11,8 @@ import {
 } from "react-router-dom";
 import AddFriend from './components/AddFriend';
 import AllFriends from './components/AllFriends';
-import Friend from './components/Friend';
+import AddTransaction from './components/AddTransaction';
+import AddCategory from './components/AddCategory';
 
 
 function App() {
@@ -30,7 +31,8 @@ function App() {
             {/* <Route path='/' component={Home} exact/> */}
             <Route path="add-friend" element={<AddFriend/>} />
             <Route path="view-friends" element={<AllFriends/>} />
-            {/* <Route path='add-transaction' component={AddFriend} exact/> */}
+            <Route path='add-transaction' element={<AddTransaction/>} exact/>
+            <Route path='add-category' element={<AddCategory/>} exact/>
             {/* <Route path='view-friends' component={AddFriend} exact/> */}
             {/* <Route path='view-transactions' component={AddFriend} exact/> */}
             {/* <Route path='about' component={AddFriend} exact/> */}

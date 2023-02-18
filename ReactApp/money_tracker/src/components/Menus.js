@@ -9,6 +9,9 @@ function Menus() {
         <Link className='list-group-item list-group-action ' tag="a" to="/" action>
           Home
         </Link>
+        <Link className='list-group-item list-group-action' tag="a" to="add-category" action>
+          Add Category
+        </Link>
         <Link className='list-group-item list-group-action' tag="a" to="add-friend" action>
           Add Friend
         </Link>

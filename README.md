@@ -11,12 +11,7 @@ The transaction is associated with a set of users to split it across.
 
 
 The poject is still under construction.
-I am stuck in login and registration module .Frontend is nearly done.
 
-Though I am learning django nowadays for a project requirement maybe I could try backend of this project  in django. Maybe..
-
-
-till then....
 
 
 ## Screenshots

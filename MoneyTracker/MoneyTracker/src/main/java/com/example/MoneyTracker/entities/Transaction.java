@@ -11,6 +11,9 @@ public class Transaction {
     private int id;
     private String tname;
     private int tamount;
+//    private String ipaid;
+//
+//    private int friend;
 
     public Transaction( String tname, int tamount) {
 
